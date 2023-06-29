@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+:root{
+--color-background: rgb(255,60,221);
+--color-background-gradient: linear-gradient(0deg, rgba(255,60,221,1) 0%, rgba(40,229,255,1) 100%);
+}
+
+body{
+    background: var(--color-background);
+    background: var(--color-background-gradient);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    font-size: xx-large;
+    padding: 5%;
+    color: darkblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#Yesbutton{
+    transform: translate(-100%,0);
+    color:darkviolet ;
+    font-size: xx-large;
+    padding: 0.75em;
+    border-radius: 10px;
+    box-shadow: 5px 2px 2px black;
+    background-color: #FF0000;
+}
+
+#Nobutton{
+    position: absolute;
+    color:darkviolet;
+    font-size: xx-large;
+    padding: 0.75em;
+    border-radius: 10px;
+    box-shadow: 5px 2px 2px black;
+    background-color: #FF0000;
+}
