@@ -1,2 +1,16 @@
 # Love
-A fun way to declare yourself
+
+## Description
+
+nothing complicated
+
+## Skills
+
+- HTML
+- CSS
+- JavaScript
+
+## Author
+
+Michael Kaiser
+
